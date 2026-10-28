@@ -1,0 +1,12 @@
+{
+  "title": "ProxiMarché — Votre marché, plus proche",
+  "language": "fr",
+  "description": "Comparez les prix des supermarchés proches de vous et préparez vos courses avec ProxiMarché.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}

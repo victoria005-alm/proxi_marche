@@ -1,0 +1,24 @@
+.pwa-status {
+  position: fixed;
+  z-index: 100;
+  right: 16px;
+  bottom: calc(88px + env(safe-area-inset-bottom, 0px));
+  width: min(360px, calc(100vw - 32px));
+  padding: 16px;
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  background: var(--surface);
+  color: var(--ink);
+  box-shadow: var(--shadow-md);
+  font-size: 13px;
+}
+.pwa-status p { margin: 0 0 10px; }
+.pwa-status button {
+  padding: 9px 12px;
+  border-radius: 8px;
+  background: #087844;
+  color: white;
+  font-weight: 600;
+}
+.pwa-status .pwa-dismiss { margin-left: 8px; background: transparent; color: var(--ink); }
+.pwa-status button:focus-visible { outline: 3px solid var(--brand-orange); outline-offset: 3px; }
